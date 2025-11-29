@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #46a5dc0D;
+  background-color: #46a5dc0d;
 }
 
 .links {
@@ -19,16 +23,19 @@ body {
 }
 
 strong {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500;
 }
 
 p {
   margin-bottom: 2em;
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
-
+.pijltje {
+  width: 20%;
+  height: 24px;
+}
 
 #titel-wrapper {
   margin: 0;
@@ -58,7 +65,6 @@ p {
   color: white;
   text-align: center;
 }
-
 
 h1 {
   color: white;
@@ -96,11 +102,10 @@ h3 {
 
 #main-geselecteerd {
   background-color: #2a92bb99;
-
 }
 
 #sub-geselecteerd {
-  background-color: #2a92bb4D;
+  background-color: #2a92bb4d;
 }
 
 #sub-menu {
@@ -113,7 +118,7 @@ h3 {
 
 #opiniestuk {
   flex: 1;
-  background-color: #2a92bb1C;
+  background-color: #2a92bb1c;
   font-size: 0.8em;
   direction: column;
   width: 55vw;
@@ -131,31 +136,35 @@ h3 {
   margin-left: 10em;
 }
 
+.menu-card p {
+  width: 80%;
+  margin: 0;
+}
+
+.sub-menu-card p {
+  width: 75%;
+  margin: 0;
+}
+
 .menu-card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 2em;
   font-size: 1.5em;
-  padding: 1em 1.5em 0.4em 1.5em;
+  padding-left: 1em;
   height: 15vh;
   border-bottom: solid 1px black;
   background-color: rgb(248, 249, 253);
   text-align: center;
-  align-content: center;
 }
 
 .sub-menu-card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  padding: 0.5em 1em 0.2em 1em;
-  gap: 2em;
+  padding-left: 3em;
   height: 7.5vh;
   border-bottom: solid 1px black;
   background-color: rgb(248, 249, 253);
   text-align: center;
-  align-content: center;
 }
