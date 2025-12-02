@@ -117,10 +117,9 @@ h3 {
 }
 
 #opiniestuk {
-  flex: 1;
+  align-items: center;
   background-color: #2a92bb1c;
   font-size: 0.8em;
-  direction: column;
   width: 55vw;
   border: solid 1px black;
   padding: 2em 6em 2em 6em;
@@ -133,7 +132,6 @@ h3 {
 
 #flow {
   width: 600px;
-  margin-left: 10em;
 }
 
 .menu-card p {
